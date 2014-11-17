@@ -1,3 +1,6 @@
+//scope:class imp
+//shortcut:tableview
+
 - (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView
 {
     return <#numberOfSection#>;
@@ -16,11 +19,11 @@
         cell = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:cellId];
     }
     //custom cell property
-
+    
     return cell;
 }
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
 {
-	
+    
 }

@@ -1,3 +1,8 @@
+//scopes:class imp
+//shortcut:collectionview
+
+#pragma mark - CollectionView
+
 - (NSInteger)numberOfSectionsInCollectionView:(UICollectionView *)collectionView
 {
     return <#numberOfSection#>;
@@ -14,4 +19,9 @@
     
     
     return cell;
+}
+
+- (void)collectionView:(UICollectionView *)collectionView didSelectItemAtIndexPath:(NSIndexPath *)indexPath
+{
+    
 }
